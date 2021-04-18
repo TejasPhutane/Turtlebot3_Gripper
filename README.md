@@ -3,7 +3,7 @@ Turtlebot 3 with gripper.
 
 ### Configuration
 `cd ~/catkin_ws/src`
-`git clone`
+`git clone https://github.com/TejasPhutane/Turtlebot3_Gripper.git`
 `cd ..`
 `catkin build`
 `source ~/catkin_ws/devel/setup.bash`
