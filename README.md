@@ -1,6 +1,9 @@
 # Turtlebot3_Gripper
 Turtlebot 3 with gripper.
 
+![Differential drive robot gazebo view](https://github.com/TejasPhutane/Turtlebot3_Gripper/blob/main/turtlebot3_gripper.png)
+
+
 ### Configuration
 ```
 cd ~/catkin_ws/src
