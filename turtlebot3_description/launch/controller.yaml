@@ -1,0 +1,16 @@
+turtlebot3:
+  # # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Position Controllers --------------------------------------
+  
+  flapleft_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: flap_left_joint
+    pid: {p: 0.05, i: 0.0, d: 0.0}
+  flapright_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: flap_right_joint
+    pid: {p: 0.05, i: 0.0, d: 0.0}
